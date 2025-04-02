@@ -1,0 +1,31 @@
+[project]
+name = "travel-planning-assistant"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.12",
+    "langchain>=0.3.22",
+    "langchain-ollama>=0.3.0",
+    "pydantic>=2.10.6",
+    "requests>=2.32.3",
+    "streamlit>=1.43.2",
+    "uvicorn>=0.34.0",
+]
+
+
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu"},
+]
+torchvision = [
+  { index = "pytorch-cpu" },
+]
+
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

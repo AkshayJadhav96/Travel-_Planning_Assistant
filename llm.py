@@ -44,8 +44,19 @@ prompt = ChatPromptTemplate.from_messages([
     ("placeholder", "{agent_scratchpad}"),
 ])
 
-agent = create_tool_calling_agent(model,tools,prompt)
-agent_executor = AgentExecutor(agent=agent,tools=tools,verbose=True)
+def initiallize_llm():
+   agent = create_tool_calling_agent(model,tools,prompt)
+   agent_executor = AgentExecutor(agent=agent,tools=tools,verbose=True)
+   return agent_executor
 
-res = agent_executor.invoke({'input':"Hi, how are you? Can you tell me,how much is 2 taka  in Indian Rupees?"})
-print(res['output'])
+
+
+def call_llm(query: str, agent_executor: AgentExecutor) -> str:
+   response = agent_executor.invoke({'input':query})
+   return response['output']
+
+# agent = create_tool_calling_agent(model,tools,prompt)
+# agent_executor = AgentExecutor(agent=agent,tools=tools,verbose=True)
+
+# res = agent_executor.invoke({'input':"Hi, how are you? Can you tell me,how much is 2 taka  in Indian Rupees?"})
+# print(res['output'])

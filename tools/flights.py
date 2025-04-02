@@ -1,65 +1,19 @@
-# import requests
-# from .pydantic_models import FlightSearchRequest, FlightSearchResponse, FlightOption
-
-# # Replace with your actual Amadeus API credentials
-# API_KEY = "9jjmOUCJuaJV4fhWJntJugcbYSvmt5lU"
-# API_SECRET = "iX5PadqYsoVa40M7"
-
-# def search_flights(request_data: FlightSearchRequest) -> FlightSearchResponse:
-#     """
-#     Search for flights using Amadeus API and return results.
-#     """
-#     # Get OAuth token
-#     url = "https://test.api.amadeus.com/v1/security/oauth2/token"
-#     headers = {"Content-Type": "application/x-www-form-urlencoded"}
-#     data = {
-#         "grant_type": "client_credentials",
-#         "client_id": API_KEY,
-#         "client_secret": API_SECRET
-#     }
-    
-#     response = requests.post(url, headers=headers, data=data)
-#     if response.status_code != 200:
-#         return FlightSearchResponse(error=f"Failed to get access token: {response.json()}")
-    
-#     access_token = response.json().get("access_token")
-    
-#     # Search for flights
-#     url = "https://test.api.amadeus.com/v2/shopping/flight-offers"
-#     headers = {"Authorization": f"Bearer {access_token}"}
-#     params = {
-#         "originLocationCode": request_data.source,
-#         "destinationLocationCode": request_data.destination,
-#         "departureDate": request_data.date,
-#         "adults": request_data.adults,
-#         "currencyCode": request_data.currency,
-#         "max": 5  # Limit to 5 flights
-#     }
-    
-#     response = requests.get(url, headers=headers, params=params)
-#     if response.status_code != 200:
-#         return FlightSearchResponse(error=f"API request failed: {response.json()}")
-    
-#     data = response.json().get("data", [])
-#     flights = [
-#         FlightOption(
-#             airline=flight["itineraries"][0]["segments"][0]["carrierCode"],
-#             departure_time=flight["itineraries"][0]["segments"][0]["departure"]["at"],
-#             arrival_time=flight["itineraries"][0]["segments"][-1]["arrival"]["at"],
-#             price=f"{flight['price']['total']} {request_data.currency}"
-#         )
-#         for flight in data
-#     ]
-    
-#     return FlightSearchResponse(flights=flights) if flights else FlightSearchResponse(message="No flights found")
-
-
 import requests
 from .pydantic_models import FlightSearchRequest,FlightSearchResponse,FlightOption
 from langchain.tools import tool
+from dotenv import load_dotenv
+import os,yaml
+from pathlib import Path
 
-API_KEY_fl = "fNrC2Kg6bk0uRclgKL26udSxQsyzdKb9"
-API_SECRET_fl = "NA71wALaHjIwi48o"
+load_dotenv()
+FLIGHTS_API_KEY = os.getenv("FLIGHTS_API_KEY")
+FLIGHTS_API_SECRET = os.getenv("FLIGHTS_API_SECRET")
+
+config_path = Path(__file__).parent / "config.yaml"
+with open(config_path, 'r') as file:
+    config = yaml.safe_load(file)
+
+BASE_URL = config["Flights"]["BASE_URL"]
 
 @tool
 def search_flights(source: str, destination: str, date: str, adults: int,currency: str) -> FlightSearchResponse:
@@ -79,12 +33,12 @@ def search_flights(source: str, destination: str, date: str, adults: int,currenc
     )
     
     # Rest of your existing implementation...
-    url = "https://test.api.amadeus.com/v1/security/oauth2/token"
+    url = BASE_URL
     headers = {"Content-Type": "application/x-www-form-urlencoded"}
     data = {
         "grant_type": "client_credentials",
-        "client_id": API_KEY_fl,
-        "client_secret": API_SECRET_fl
+        "client_id": FLIGHTS_API_KEY,
+        "client_secret": FLIGHTS_API_SECRET
     }
     
     response = requests.post(url, headers=headers, data=data)

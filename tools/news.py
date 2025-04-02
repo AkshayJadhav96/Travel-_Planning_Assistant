@@ -1,27 +1,12 @@
-# import requests
-
-# api_key="ff47b0668fd74e2599be21fff9382774"
-
-# def get_news(location):
-#     url = f"https://newsapi.org/v2/everything?q={location}&from=today&sortBy=publishedAt&apiKey={api_key}"
-#     response = requests.get(url)
-#     data = response.json()
-#     # print(data)
-#     return data["articles"]# Return top 5 news articles
-
-# location = "Solapur"
-# news = get_news(location)
-# for article in news:
-#     print(f"Title: {article['title']}\nURL: {article['url']}\n")
-# # print(news)
-
-
 import requests
 from langchain.tools import tool
 from typing import List
 from .pydantic_models import NewsArticle
+from dotenv import load_dotenv
+import os
 
-api_key_new="ff47b0668fd74e2599be21fff9382774"
+load_dotenv()
+API_KEY = os.getenv("WEATHER_API_KEY")
 
 @tool
 def get_news(location: str) -> List[NewsArticle]:
@@ -29,7 +14,7 @@ def get_news(location: str) -> List[NewsArticle]:
     if not isinstance(location, str) or not location.strip():
         raise ValueError("Location must be a non-empty string")
 
-    url = f"https://newsapi.org/v2/everything?q={location}&from=today&sortBy=publishedAt&apiKey={api_key_new}"
+    url = f"https://newsapi.org/v2/everything?q={location}&from=today&sortBy=publishedAt&apiKey={API_KEY}"
     response = requests.get(url)
     data = response.json()
     

@@ -1,0 +1,31 @@
+set shell := ["bash", "-cu"]
+set dotenv-load
+
+default:
+    just --list
+
+setup:
+    uv sync
+
+run-log_serve:
+    uv run python -m unified_logging.logging_server
+
+run-fastapi:
+    @-pkill -f api.py
+    uv run fastapi run api.py
+
+run-gui:
+    @echo "Stopping existing Streamlit instance..."
+    @-pkill -f "streamlit run main.py"
+    @echo "Starting new Streamlit instance..."
+    uv run python -m unified_logging.logging_server &  # Run in background
+    sleep 2  # Optional: give logging server a moment to start
+    uv run streamlit run main.py
+
+serve-bm:
+    @-pkill -f service.py 
+    cd bentoml && uv run bentoml serve
+
+run-ruff:
+    uv run ruff check .
+

@@ -4,9 +4,9 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.agents import create_tool_calling_agent,AgentExecutor
 from tools.news import get_news
 from tools.Currency import convert_currency
-from tools.flights import search_flights
 from tools.hotels import search_hotels
 from tools.Weather import get_weather
+from tools.flights import search_flights
 import yaml
 
 model = ChatOllama(

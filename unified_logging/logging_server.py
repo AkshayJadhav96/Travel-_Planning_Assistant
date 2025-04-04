@@ -18,11 +18,6 @@ def set_logging_configs(logging_configs: LoggingConfigs) -> None:
         logging_configs (LoggingConfigs): The logging configuration to apply.
 
     """
-
-    # print(f"Logging to: {logging_configs.log_file_name}")
-
-    # os.makedirs(os.path.dirname(logging_configs.log_file_name), exist_ok=True)  # Ensure logs/ exists
-
     logger.remove()
     logger.add(
         logging_configs.log_file_name,

@@ -1,0 +1,663 @@
+[INFO] | 2025-04-04 10:17:31.468 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:18:20.404 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:18:20.405 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:18:20.492 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:18:20.492 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[ERROR] | ERROR flights.py:25 - 2025-04-04 10:18:20.495 | ERROR | flights.py:<module>:25 | Failed to load environment variables: Missing API credentials in environment variables - None
+[INFO] | 2025-04-04 10:20:07.945 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:20:07.945 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:20:08.015 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:20:08.016 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:20:08.044 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:20:08.044 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:20:08.067 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:20:08.067 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[ERROR] | ERROR flights.py:25 - 2025-04-04 10:20:08.069 | ERROR | flights.py:<module>:25 | Failed to load environment variables: Missing API credentials in environment variables - None
+[INFO] | 2025-04-04 10:21:05.003 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:21:05.003 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:21:05.070 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:21:05.070 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:21:05.097 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:21:05.098 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:21:05.132 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:21:05.132 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[ERROR] | ERROR flights.py:26 - 2025-04-04 10:21:05.134 | ERROR | flights.py:<module>:26 | Failed to load environment variables: Missing API credentials in environment variables - None
+[INFO] | 2025-04-04 10:21:32.780 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:21:32.780 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:21:32.844 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:21:32.844 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:21:32.871 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:21:32.871 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:21:32.902 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:21:32.902 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[ERROR] | ERROR flights.py:28 - 2025-04-04 10:21:32.904 | ERROR | flights.py:<module>:28 | Failed to load environment variables: Missing API credentials in environment variables - None
+[INFO] | 2025-04-04 10:21:56.624 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:21:56.624 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:21:56.688 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:21:56.688 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:21:56.711 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:21:56.712 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:21:56.740 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:21:56.740 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:21:56.801 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:21:56.801 | INFO | api.py:<module>:9 | Initializing Travel and Finance Assistant API
+[INFO] | 2025-04-04 10:23:26.653 | INFO | Currency.py:convert_currency:39 | Starting currency conversion: 1.0 USD to INR
+[DEBUG] | DEBUG Currency.py:46 - 2025-04-04 10:23:26.660 | DEBUG | Currency.py:convert_currency:46 | Constructed API URL: https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json
+[INFO] | 2025-04-04 10:23:26.660 | INFO | Currency.py:convert_currency:50 | Making API request for currency data
+[DEBUG] | DEBUG Currency.py:58 - 2025-04-04 10:23:27.031 | DEBUG | Currency.py:convert_currency:58 | Extracted exchange rate: {'inr': 85.70763002}
+[INFO] | 2025-04-04 10:23:27.031 | INFO | Currency.py:convert_currency:74 | Converted amount: 1.0 USD = 85.71 INR
+[INFO] | 2025-04-04 10:24:25.784 | INFO | flights.py:search_flights:48 | Starting flight search: VNBC→CJB on 2024-03-15 for 1 adult(s) in INR
+[CRITICAL] | CRITICAL flights.py:122 - 2025-04-04 10:24:25.787 | CRITICAL | flights.py:search_flights:122 | Unexpected error in flight search: 1 validation error for FlightSearchRequest
+source
+  String should have at most 3 characters [type=string_too_long, input_value='VNBC', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/string_too_long
+[INFO] | 2025-04-04 10:24:39.536 | INFO | flights.py:search_flights:48 | Starting flight search: BOM→CJB on 2024-03-15 for 1 adult(s) in INR
+[DEBUG] | DEBUG flights.py:59 - 2025-04-04 10:24:39.543 | DEBUG | flights.py:search_flights:59 | Created request object: source='BOM' destination='CJB' date='2024-03-15' adults=1 currency='INR'
+[INFO] | 2025-04-04 10:24:39.543 | INFO | flights.py:search_flights:62 | Requesting API access token
+[DEBUG] | DEBUG flights.py:90 - 2025-04-04 10:24:42.087 | DEBUG | flights.py:search_flights:90 | Preparing flight search with params: {'originLocationCode': 'BOM', 'destinationLocationCode': 'CJB', 'departureDate': '2024-03-15', 'adults': 1, 'currencyCode': 'INR', 'max': 5}
+[INFO] | 2025-04-04 10:24:42.087 | INFO | flights.py:search_flights:92 | Making flight search request
+[ERROR] | ERROR flights.py:96 - 2025-04-04 10:24:43.536 | ERROR | flights.py:search_flights:96 | Flight search failed: 400 - {"errors":[{"status":400,"code":425,"title":"INVALID DATE","detail":"Date/Time is in the past","source":{}}]} - None
+[INFO] | 2025-04-04 10:27:06.038 | INFO | hotels.py:search_hotels:58 | Starting hotel search in BOM (radius: 10KM, amenities: pool,spa,wifi, ratings: 2,3)
+[DEBUG] | DEBUG hotels.py:72 - 2025-04-04 10:27:06.039 | DEBUG | hotels.py:search_hotels:72 | Created request object: city_code='BOM' radius=10 radius_unit='KM' amenities='pool,spa,wifi' ratings='2,3'
+[INFO] | 2025-04-04 10:27:06.039 | INFO | hotels.py:search_hotels:75 | Requesting API access token
+[DEBUG] | DEBUG hotels.py:102 - 2025-04-04 10:27:06.894 | DEBUG | hotels.py:search_hotels:102 | Preparing hotel search with params: {'cityCode': 'BOM', 'radius': 10, 'radiusUnit': 'KM', 'amenities': 'pool,spa,wifi', 'ratings': '2,3'}
+[INFO] | 2025-04-04 10:27:06.894 | INFO | hotels.py:search_hotels:104 | Making hotel search request
+[INFO] | 2025-04-04 10:27:08.211 | INFO | hotels.py:search_hotels:112 | Found 3 hotel options
+[DEBUG] | DEBUG hotels.py:131 - 2025-04-04 10:27:08.212 | DEBUG | hotels.py:search_hotels:131 | Sample hotel: name='HOTEL NEW BENGAL' hotel_id='CHBOMNEW' address='IN' rating='3' amenities=['WIFI']
+[INFO] | 2025-04-04 10:28:46.566 | INFO | Weather.py:get_weather:50 | Starting weather forecast for Palakkad (days: 1)
+[DEBUG] | DEBUG Weather.py:58 - 2025-04-04 10:28:46.567 | DEBUG | Weather.py:get_weather:58 | Constructed API URL: https://api.weatherapi.com/v1/forecast.json
+[DEBUG] | DEBUG Weather.py:59 - 2025-04-04 10:28:46.567 | DEBUG | Weather.py:get_weather:59 | Request params: {'key': '***', 'q': 'Palakkad', 'days': 1}
+[INFO] | 2025-04-04 10:28:46.567 | INFO | Weather.py:get_weather:62 | Making request to weather API
+[DEBUG] | DEBUG Weather.py:64 - 2025-04-04 10:28:48.466 | DEBUG | Weather.py:get_weather:64 | Received status code: 200
+[INFO] | 2025-04-04 10:28:48.466 | INFO | Weather.py:get_weather:74 | Successfully received weather data
+[DEBUG] | DEBUG Weather.py:79 - 2025-04-04 10:28:48.467 | DEBUG | Weather.py:get_weather:79 | Successfully validated weather data
+[INFO] | 2025-04-04 10:31:07.944 | INFO | Weather.py:get_weather:50 | Starting weather forecast for Nashik (days: 14)
+[DEBUG] | DEBUG Weather.py:58 - 2025-04-04 10:31:07.945 | DEBUG | Weather.py:get_weather:58 | Constructed API URL: https://api.weatherapi.com/v1/forecast.json
+[DEBUG] | DEBUG Weather.py:59 - 2025-04-04 10:31:07.945 | DEBUG | Weather.py:get_weather:59 | Request params: {'key': '***', 'q': 'Nashik', 'days': 14}
+[INFO] | 2025-04-04 10:31:07.945 | INFO | Weather.py:get_weather:62 | Making request to weather API
+[DEBUG] | DEBUG Weather.py:64 - 2025-04-04 10:31:08.738 | DEBUG | Weather.py:get_weather:64 | Received status code: 400
+[ERROR] | ERROR Weather.py:71 - 2025-04-04 10:31:08.738 | ERROR | Weather.py:get_weather:71 | API error: No matching location found. - None
+[INFO] | 2025-04-04 10:31:17.620 | INFO | Weather.py:get_weather:50 | Starting weather forecast for Nashik (days: 14)
+[DEBUG] | DEBUG Weather.py:58 - 2025-04-04 10:31:17.620 | DEBUG | Weather.py:get_weather:58 | Constructed API URL: https://api.weatherapi.com/v1/forecast.json
+[DEBUG] | DEBUG Weather.py:59 - 2025-04-04 10:31:17.620 | DEBUG | Weather.py:get_weather:59 | Request params: {'key': '***', 'q': 'Nashik', 'days': 14}
+[INFO] | 2025-04-04 10:31:17.620 | INFO | Weather.py:get_weather:62 | Making request to weather API
+[DEBUG] | DEBUG Weather.py:64 - 2025-04-04 10:31:18.361 | DEBUG | Weather.py:get_weather:64 | Received status code: 400
+[ERROR] | ERROR Weather.py:71 - 2025-04-04 10:31:18.361 | ERROR | Weather.py:get_weather:71 | API error: No matching location found. - None
+[INFO] | 2025-04-04 10:31:22.536 | INFO | Weather.py:get_weather:50 | Starting weather forecast for Nashik (days: 14)
+[DEBUG] | DEBUG Weather.py:58 - 2025-04-04 10:31:22.537 | DEBUG | Weather.py:get_weather:58 | Constructed API URL: https://api.weatherapi.com/v1/forecast.json
+[DEBUG] | DEBUG Weather.py:59 - 2025-04-04 10:31:22.537 | DEBUG | Weather.py:get_weather:59 | Request params: {'key': '***', 'q': 'Nashik', 'days': 14}
+[INFO] | 2025-04-04 10:31:22.537 | INFO | Weather.py:get_weather:62 | Making request to weather API
+[DEBUG] | DEBUG Weather.py:64 - 2025-04-04 10:31:23.072 | DEBUG | Weather.py:get_weather:64 | Received status code: 400
+[ERROR] | ERROR Weather.py:71 - 2025-04-04 10:31:23.072 | ERROR | Weather.py:get_weather:71 | API error: No matching location found. - None
+[INFO] | 2025-04-04 10:32:30.748 | INFO | hotels.py:search_hotels:58 | Starting hotel search in NIS (radius: 10KM, amenities: , ratings: )
+[DEBUG] | DEBUG hotels.py:72 - 2025-04-04 10:32:30.748 | DEBUG | hotels.py:search_hotels:72 | Created request object: city_code='NIS' radius=10 radius_unit='KM' amenities='' ratings=''
+[INFO] | 2025-04-04 10:32:30.748 | INFO | hotels.py:search_hotels:75 | Requesting API access token
+[DEBUG] | DEBUG hotels.py:102 - 2025-04-04 10:32:32.084 | DEBUG | hotels.py:search_hotels:102 | Preparing hotel search with params: {'cityCode': 'NIS', 'radius': 10, 'radiusUnit': 'KM', 'amenities': '', 'ratings': ''}
+[INFO] | 2025-04-04 10:32:32.084 | INFO | hotels.py:search_hotels:104 | Making hotel search request
+[ERROR] | ERROR hotels.py:108 - 2025-04-04 10:32:33.418 | ERROR | hotels.py:search_hotels:108 | Hotel search failed: 400 - {"errors":[{"code":7211,"detail":"Invalid amenity codes","status":400,"title":"INVALID FACILITY CODE"}]} - None
+[INFO] | 2025-04-04 10:32:43.849 | INFO | hotels.py:search_hotels:58 | Starting hotel search in NIS (radius: 10KM, amenities: , ratings: )
+[DEBUG] | DEBUG hotels.py:72 - 2025-04-04 10:32:43.849 | DEBUG | hotels.py:search_hotels:72 | Created request object: city_code='NIS' radius=10 radius_unit='KM' amenities='' ratings=''
+[INFO] | 2025-04-04 10:32:43.849 | INFO | hotels.py:search_hotels:75 | Requesting API access token
+[DEBUG] | DEBUG hotels.py:102 - 2025-04-04 10:32:45.087 | DEBUG | hotels.py:search_hotels:102 | Preparing hotel search with params: {'cityCode': 'NIS', 'radius': 10, 'radiusUnit': 'KM', 'amenities': '', 'ratings': ''}
+[INFO] | 2025-04-04 10:32:45.087 | INFO | hotels.py:search_hotels:104 | Making hotel search request
+[ERROR] | ERROR hotels.py:108 - 2025-04-04 10:32:46.327 | ERROR | hotels.py:search_hotels:108 | Hotel search failed: 400 - {"errors":[{"code":7211,"detail":"Invalid amenity codes","status":400,"title":"INVALID FACILITY CODE"}]} - None
+[INFO] | 2025-04-04 10:40:15.175 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:15.175 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:40:16.382 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:16.382 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:40:16.397 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:16.397 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:40:16.421 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:16.421 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:40:16.444 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:16.445 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:40:16.468 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:16.468 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:40:20.368 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:20.369 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:40:20.374 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:20.374 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:40:20.380 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:20.380 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:40:20.394 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:20.395 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:40:20.517 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:20.517 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:40:20.563 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:20.563 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:40:20.636 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:20.636 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:40:20.643 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:20.643 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:40:20.684 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:20.685 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:40:20.714 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:20.715 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:40:20.746 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:20.746 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:40:20.809 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:20.810 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:40:22.169 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.170 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:40:22.196 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.196 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:40:22.249 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.252 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:40:22.262 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.262 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:40:22.287 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.287 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:40:22.300 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.300 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:40:22.313 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.314 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:40:22.332 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.332 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:40:22.340 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.341 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:40:22.348 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.352 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.354 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:40:22.349 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:40:22.383 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.384 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:40:22.388 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.389 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:40:22.383 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.384 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:40:22.417 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.418 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:40:22.408 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.409 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:40:22.425 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.426 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:40:22.445 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.447 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:40:22.436 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.438 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:40:22.468 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.469 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:40:22.470 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.472 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:40:22.481 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.485 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:40:22.493 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.493 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:40:22.519 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.519 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:40:22.539 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.539 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:40:22.556 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.557 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:40:22.558 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.559 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:40:22.601 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.609 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.610 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:40:22.602 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:40:22.611 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.612 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:40:22.628 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.629 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:40:22.657 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.658 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:40:22.666 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.667 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:40:22.693 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.694 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:40:22.714 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.707 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.708 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:40:22.716 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:40:22.751 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.752 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:40:22.760 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.762 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:40:22.771 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.752 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.772 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:40:22.753 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:40:22.787 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.788 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:40:22.822 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.823 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:40:22.828 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.829 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.829 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:40:22.828 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:40:22.869 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.870 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:40:22.860 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.860 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:40:22.871 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.871 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:40:22.900 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.900 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:40:22.911 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.912 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.913 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.912 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:40:22.914 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:40:22.915 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:40:22.937 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.937 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:40:22.939 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.939 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:40:22.958 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.958 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:40:22.955 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.956 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:40:22.970 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.970 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:40:22.999 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:22.999 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:40:23.004 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:23.004 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:40:23.060 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:23.061 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:40:23.123 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:40:23.123 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:41:53.189 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:41:53.189 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:41:54.357 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:41:54.357 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:41:54.372 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:41:54.372 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:41:54.392 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:41:54.393 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:41:54.417 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:41:54.418 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:41:54.445 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:41:54.445 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:45:21.110 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:21.110 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:45:22.268 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:22.268 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:45:22.283 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:22.283 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:45:22.304 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:22.304 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:45:22.329 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:22.329 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:45:22.357 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:22.357 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:45:25.662 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:25.663 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:45:25.740 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:25.741 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:45:25.763 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:25.763 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:45:25.795 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:25.796 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:45:25.959 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:25.959 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:45:25.976 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:25.976 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:45:26.003 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:26.003 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:45:26.037 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:26.037 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:45:26.093 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:26.093 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:45:26.100 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:26.100 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:45:26.114 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:26.115 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:45:26.140 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:26.141 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 10:45:27.438 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.439 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:45:27.467 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.468 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:45:27.525 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.526 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:45:27.546 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.547 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:45:27.573 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.574 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:45:27.611 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.611 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:45:27.629 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.630 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:45:27.634 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.635 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:45:27.651 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.651 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:45:27.651 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.652 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:45:27.673 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.674 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:45:27.683 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.684 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:45:27.695 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.692 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.693 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:45:27.695 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:45:27.707 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.708 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:45:27.736 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.736 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:45:27.750 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.751 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:45:27.782 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.783 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:45:27.807 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.808 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:45:27.824 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.825 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:45:27.820 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.820 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:45:27.887 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.889 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.889 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:45:27.890 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:45:27.901 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.901 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:45:27.903 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.903 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:45:27.913 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.914 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:45:27.917 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.918 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:45:27.931 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.935 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.935 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:45:27.932 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:45:27.942 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.942 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:45:27.952 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.960 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.960 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:45:27.976 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.977 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:45:27.982 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.983 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:45:27.987 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:27.988 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:45:27.956 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:45:28.014 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.016 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:45:28.023 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.023 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:45:28.009 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.010 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:45:28.026 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.026 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:45:28.025 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.026 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:45:28.044 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.045 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:45:28.062 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.062 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:45:28.059 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.059 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:45:28.062 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.063 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:45:28.085 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.086 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:45:28.089 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.084 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.089 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:45:28.085 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:45:28.094 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.095 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:45:28.100 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.101 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:45:28.117 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.118 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:45:28.119 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.119 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:45:28.138 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.139 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:45:28.157 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.157 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:45:28.176 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.177 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:45:28.184 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.185 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:45:28.199 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.200 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:45:28.220 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.221 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:45:28.247 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.236 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.238 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:45:28.262 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:45:28.691 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:45:28.691 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:47:26.879 | INFO | Currency.py:convert_currency:39 | Starting currency conversion: 1.0 USD to INR
+[DEBUG] | DEBUG Currency.py:46 - 2025-04-04 10:47:26.889 | DEBUG | Currency.py:convert_currency:46 | Constructed API URL: https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json
+[INFO] | 2025-04-04 10:47:26.890 | INFO | Currency.py:convert_currency:50 | Making API request for currency data
+[DEBUG] | DEBUG Currency.py:58 - 2025-04-04 10:47:27.657 | DEBUG | Currency.py:convert_currency:58 | Extracted exchange rate: {'inr': 85.70763002}
+[INFO] | 2025-04-04 10:47:27.657 | INFO | Currency.py:convert_currency:74 | Converted amount: 1.0 USD = 85.71 INR
+[DEBUG] | DEBUG service.py:37 - 2025-04-04 10:47:31.124 | DEBUG | service.py:query:37 | Sample response: The value 1 USD is equivalent to approximately 85.71 INR....
+[INFO] | 2025-04-04 10:48:31.026 | INFO | flights.py:search_flights:48 | Starting flight search: BAI→CJB on 2024-03-15 for 1 adult(s) in INR
+[DEBUG] | DEBUG flights.py:59 - 2025-04-04 10:48:31.029 | DEBUG | flights.py:search_flights:59 | Created request object: source='BAI' destination='CJB' date='2024-03-15' adults=1 currency='INR'
+[INFO] | 2025-04-04 10:48:31.029 | INFO | flights.py:search_flights:62 | Requesting API access token
+[DEBUG] | DEBUG flights.py:90 - 2025-04-04 10:48:32.250 | DEBUG | flights.py:search_flights:90 | Preparing flight search with params: {'originLocationCode': 'BAI', 'destinationLocationCode': 'CJB', 'departureDate': '2024-03-15', 'adults': 1, 'currencyCode': 'INR', 'max': 5}
+[INFO] | 2025-04-04 10:48:32.250 | INFO | flights.py:search_flights:92 | Making flight search request
+[ERROR] | ERROR flights.py:96 - 2025-04-04 10:48:33.502 | ERROR | flights.py:search_flights:96 | Flight search failed: 400 - {"errors":[{"status":400,"code":425,"title":"INVALID DATE","detail":"Date/Time is in the past","source":{}}]} - None
+[DEBUG] | DEBUG service.py:37 - 2025-04-04 10:48:44.012 | DEBUG | service.py:query:37 | Sample response: Unfortunately, I couldn't find any flights from Bombay (BAI) to Coimbatore (CJB). The search failed ...
+[INFO] | 2025-04-04 10:49:38.565 | INFO | flights.py:search_flights:48 | Starting flight search: BOM→VCB on 2024-03-16 for 1 adult(s) in INR
+[DEBUG] | DEBUG flights.py:59 - 2025-04-04 10:49:38.581 | DEBUG | flights.py:search_flights:59 | Created request object: source='BOM' destination='VCB' date='2024-03-16' adults=1 currency='INR'
+[INFO] | 2025-04-04 10:49:38.581 | INFO | flights.py:search_flights:62 | Requesting API access token
+[DEBUG] | DEBUG flights.py:90 - 2025-04-04 10:49:39.738 | DEBUG | flights.py:search_flights:90 | Preparing flight search with params: {'originLocationCode': 'BOM', 'destinationLocationCode': 'VCB', 'departureDate': '2024-03-16', 'adults': 1, 'currencyCode': 'INR', 'max': 5}
+[INFO] | 2025-04-04 10:49:39.739 | INFO | flights.py:search_flights:92 | Making flight search request
+[ERROR] | ERROR flights.py:96 - 2025-04-04 10:49:41.188 | ERROR | flights.py:search_flights:96 | Flight search failed: 400 - {"errors":[{"status":400,"code":4926,"title":"INVALID DATA RECEIVED","detail":"This location code is unknown"}]} - None
+[INFO] | 2025-04-04 10:49:52.841 | INFO | flights.py:search_flights:48 | Starting flight search: BOM→CJB on 2024-03-16 for 1 adult(s) in INR
+[DEBUG] | DEBUG flights.py:59 - 2025-04-04 10:49:52.841 | DEBUG | flights.py:search_flights:59 | Created request object: source='BOM' destination='CJB' date='2024-03-16' adults=1 currency='INR'
+[INFO] | 2025-04-04 10:49:52.841 | INFO | flights.py:search_flights:62 | Requesting API access token
+[DEBUG] | DEBUG flights.py:90 - 2025-04-04 10:49:54.066 | DEBUG | flights.py:search_flights:90 | Preparing flight search with params: {'originLocationCode': 'BOM', 'destinationLocationCode': 'CJB', 'departureDate': '2024-03-16', 'adults': 1, 'currencyCode': 'INR', 'max': 5}
+[INFO] | 2025-04-04 10:49:54.066 | INFO | flights.py:search_flights:92 | Making flight search request
+[ERROR] | ERROR flights.py:96 - 2025-04-04 10:49:55.233 | ERROR | flights.py:search_flights:96 | Flight search failed: 400 - {"errors":[{"status":400,"code":425,"title":"INVALID DATE","detail":"Date/Time is in the past","source":{}}]} - None
+[DEBUG] | DEBUG service.py:37 - 2025-04-04 10:50:07.794 | DEBUG | service.py:query:37 | Sample response: I tried searching for flights from Bombay (BOM) to Chennai (CJB), as I couldn't find any information...
+[INFO] | 2025-04-04 10:51:05.852 | INFO | news.py:get_news:21 | Received request to fetch news for location: 'Maharashtra'
+[DEBUG] | DEBUG news.py:28 - 2025-04-04 10:51:05.865 | DEBUG | news.py:get_news:28 | Sending request to News API: https://newsapi.org/v2/everything?q=Maharashtra&from=today&sortBy=publishedAt&apiKey=ff47b0668fd74e2599be21fff9382774
+[INFO] | 2025-04-04 10:51:06.685 | INFO | news.py:get_news:33 | News API request successful
+[INFO] | 2025-04-04 10:51:06.686 | INFO | news.py:get_news:45 | Processing up to 5 articles from response
+[INFO] | 2025-04-04 10:51:06.688 | INFO | news.py:get_news:57 | Returning 5 articles for location: 'Maharashtra'
+[DEBUG] | DEBUG service.py:37 - 2025-04-04 10:51:31.157 | DEBUG | service.py:query:37 | Sample response: Here are the latest news from Maharashtra:
+
+* Only 48.5 million Farmer IDs issued as digital agricul...
+[INFO] | 2025-04-04 10:52:16.422 | INFO | hotels.py:search_hotels:58 | Starting hotel search in BOM (radius: 5KM, amenities: pool,spa,wifi, ratings: 2,3,4)
+[DEBUG] | DEBUG hotels.py:72 - 2025-04-04 10:52:16.423 | DEBUG | hotels.py:search_hotels:72 | Created request object: city_code='BOM' radius=5 radius_unit='KM' amenities='pool,spa,wifi' ratings='2,3,4'
+[INFO] | 2025-04-04 10:52:16.423 | INFO | hotels.py:search_hotels:75 | Requesting API access token
+[DEBUG] | DEBUG hotels.py:102 - 2025-04-04 10:52:17.427 | DEBUG | hotels.py:search_hotels:102 | Preparing hotel search with params: {'cityCode': 'BOM', 'radius': 5, 'radiusUnit': 'KM', 'amenities': 'pool,spa,wifi', 'ratings': '2,3,4'}
+[INFO] | 2025-04-04 10:52:17.427 | INFO | hotels.py:search_hotels:104 | Making hotel search request
+[INFO] | 2025-04-04 10:52:18.544 | INFO | hotels.py:search_hotels:112 | Found 4 hotel options
+[DEBUG] | DEBUG hotels.py:131 - 2025-04-04 10:52:18.551 | DEBUG | hotels.py:search_hotels:131 | Sample hotel: name='HOTEL NEW BENGAL' hotel_id='CHBOMNEW' address='IN' rating='3' amenities=['WIFI']
+[DEBUG] | DEBUG service.py:37 - 2025-04-04 10:52:42.231 | DEBUG | service.py:query:37 | Sample response: Based on the search, here are some famous hotels on Marine Drive in Mumbai:
+
+1. **Chateau Windsor Ho...
+[INFO] | 2025-04-04 10:59:48.904 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:59:48.905 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 10:59:48.921 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:59:48.921 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 10:59:48.945 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:59:48.945 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 10:59:48.972 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:59:48.973 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 10:59:48.995 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:59:48.996 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 10:59:49.051 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 10:59:49.052 | INFO | api.py:<module>:9 | Initializing Travel and Finance Assistant API
+[INFO] | 2025-04-04 11:00:05.797 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:00:05.797 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 11:00:05.814 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:00:05.814 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 11:00:05.839 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:00:05.840 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 11:00:05.945 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:00:05.945 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 11:00:05.968 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:00:05.969 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 11:00:06.028 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:00:06.029 | INFO | api.py:<module>:9 | Initializing Travel and Finance Assistant API
+[INFO] | 2025-04-04 11:08:30.757 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:30.758 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 11:08:32.008 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:32.008 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 11:08:32.024 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:32.024 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 11:08:32.046 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:32.046 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 11:08:32.069 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:32.070 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 11:08:32.095 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:32.095 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 11:08:35.015 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:35.015 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 11:08:35.055 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:35.055 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 11:08:35.058 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:35.058 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 11:08:35.140 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:35.141 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 11:08:35.243 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:35.242 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:35.242 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 11:08:35.243 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 11:08:35.301 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:35.302 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 11:08:35.325 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:35.326 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 11:08:35.472 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:35.473 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 11:08:35.523 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:35.524 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 11:08:35.526 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:35.526 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 11:08:35.559 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:35.559 | INFO | service.py:<module>:15 | Initializing TravelFinanceAssistant service
+[INFO] | 2025-04-04 11:08:37.137 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.138 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 11:08:37.174 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.175 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 11:08:37.192 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.192 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 11:08:37.209 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.210 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 11:08:37.242 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.242 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 11:08:37.263 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.264 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 11:08:37.277 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.277 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 11:08:37.311 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.313 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 11:08:37.311 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.311 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 11:08:37.317 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.318 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 11:08:37.344 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.345 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 11:08:37.381 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.382 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 11:08:37.401 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.402 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 11:08:37.417 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.417 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 11:08:37.419 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.419 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 11:08:37.447 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.447 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 11:08:37.460 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.461 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 11:08:37.468 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.470 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 11:08:37.492 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.493 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 11:08:37.479 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.480 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 11:08:37.502 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.502 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 11:08:37.502 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.503 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 11:08:37.536 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.536 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 11:08:37.542 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.543 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 11:08:37.534 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.534 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 11:08:37.554 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.555 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 11:08:37.571 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.571 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 11:08:37.574 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.575 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 11:08:37.590 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.591 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 11:08:37.581 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.582 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 11:08:37.600 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.601 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 11:08:37.604 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.604 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 11:08:37.619 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.619 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 11:08:37.626 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.627 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.627 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 11:08:37.629 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 11:08:37.620 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.620 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 11:08:37.653 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.654 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 11:08:37.675 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.676 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 11:08:37.691 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.692 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 11:08:37.708 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.708 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 11:08:37.723 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.724 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 11:08:37.787 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.789 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 11:08:37.789 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.790 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 11:08:37.774 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.775 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 11:08:37.852 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.853 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 11:08:37.855 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.858 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 11:08:37.872 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.873 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 11:08:37.891 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.891 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 11:08:37.899 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.900 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 11:08:37.920 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.921 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 11:08:37.947 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.949 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 11:08:37.983 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:37.983 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 11:08:38.028 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:38.029 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 11:08:38.062 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:38.063 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 11:08:38.075 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:38.076 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 11:08:38.106 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:38.110 | INFO | news.py:<module>:13 | News Search tool initializing
+[INFO] | 2025-04-04 11:08:38.138 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:38.138 | INFO | Currency.py:<module>:14 | Currency conversion tool starting up
+[INFO] | 2025-04-04 11:08:38.246 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:38.247 | INFO | hotels.py:<module>:14 | Hotel search tool initializing
+[INFO] | 2025-04-04 11:08:38.303 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:38.303 | INFO | Weather.py:<module>:15 | Weather forecast tool initializing
+[INFO] | 2025-04-04 11:08:38.357 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:08:38.360 | INFO | flights.py:<module>:14 | Flight search tool initializing
+[INFO] | 2025-04-04 11:09:28.172 | INFO | Currency.py:convert_currency:39 | Starting currency conversion: 1.0 USD to INR
+[DEBUG] | DEBUG Currency.py:46 - 2025-04-04 11:09:28.174 | DEBUG | Currency.py:convert_currency:46 | Constructed API URL: https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json
+[INFO] | 2025-04-04 11:09:28.174 | INFO | Currency.py:convert_currency:50 | Making API request for currency data
+[DEBUG] | DEBUG Currency.py:58 - 2025-04-04 11:09:28.436 | DEBUG | Currency.py:convert_currency:58 | Extracted exchange rate: {'inr': 85.70763002}
+[INFO] | 2025-04-04 11:09:28.436 | INFO | Currency.py:convert_currency:74 | Converted amount: 1.0 USD = 85.71 INR
+[DEBUG] | DEBUG service.py:37 - 2025-04-04 11:09:31.250 | DEBUG | service.py:query:37 | Sample response: The amount of 1 USD is equivalent to approximately ₹85.71 INR....
+[INFO] | 2025-04-04 11:22:50.894 | INFO | logging_setup.py:setup_logging:39 | Unified logging initialized with config from /home/yash_anil_aher/Documents/Mlops/p3-1/Travel-_Planning_Assistant/unified_logging/configs.toml
+[INFO] | 2025-04-04 11:28:11.377 | INFO | Currency.py:convert_currency:39 | Starting currency conversion: 1.0 USD to INR
+[DEBUG] | DEBUG Currency.py:46 - 2025-04-04 11:28:11.391 | DEBUG | Currency.py:convert_currency:46 | Constructed API URL: https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json
+[INFO] | 2025-04-04 11:28:11.391 | INFO | Currency.py:convert_currency:50 | Making API request for currency data
+[DEBUG] | DEBUG Currency.py:58 - 2025-04-04 11:28:12.051 | DEBUG | Currency.py:convert_currency:58 | Extracted exchange rate: {'inr': 85.70763002}
+[INFO] | 2025-04-04 11:28:12.052 | INFO | Currency.py:convert_currency:74 | Converted amount: 1.0 USD = 85.71 INR

@@ -29,3 +29,5 @@ serve-bm:
 run-ruff:
     uv run ruff check .
 
+run-mkdocs:
+    cd project-docs && uv run mkdocs serve

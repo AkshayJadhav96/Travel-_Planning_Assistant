@@ -12,7 +12,7 @@ The Travel Planning Assistant is built using an **LLM-based agent system** that 
 ## Flow Diagram
 ```mermaid
 graph TD;
-    User["🧑 User"] -->|Asks Query| LLM["🤖 LLM (Gemma 3)"];
+    User["🧑 User"] -->|Asks Query| LLM["🤖 LLM (qwen2.5:7b)"];
     LLM -->|Determines Required Tool| Tools["🛠️ Tool Selector"];
     Tools -->|Invokes Relevant APIs| APIs["🌐 External APIs"];
     APIs -->|Fetches Data| API_Responses["📦 API Responses"];

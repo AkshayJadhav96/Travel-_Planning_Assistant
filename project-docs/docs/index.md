@@ -12,7 +12,7 @@ The **Travel Planning Assistant** is an AI-powered tool that helps users plan th
 
 ## Tech Stack
 - **LLM Runner**: Ollama (to host and run the model)
-- **LLM**: llama3.2 (hosted on Ollama)
+- **LLM**: qwen2.5:3b (hosted on Ollama)
 - **Framework**: LangChain
 - **APIs Used**: 
     - Amadeus Hotel List API (for hotel search)

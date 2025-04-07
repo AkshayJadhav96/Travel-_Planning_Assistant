@@ -1,4 +1,4 @@
-# Functionality
+# **Functionality**
 ## 1. Flight Search
 - Searches for available flights based on user preferences.
 - API used: **Amadeus Flight Search API**.
@@ -24,6 +24,10 @@
 
 ---
 
+### *Firstly ensure that you have installed ollama on your machine and have pulled(hosted) the qwen2.5:7b model in it.*
+
+---
+
 ## How to Run the Project
 
 To run the **Customer Service Assistant**, follow these steps:
@@ -35,12 +39,70 @@ Clone the repository and install the dependencies:
 ```bash
 git clone https://github.com/AkshayJadhav96/Travel-_Planning_Assistant.git
 ```
-Before running following command Please ensure just is already installed in your system 
+
+### **2. Setting Up Your `.env` File**
+After cloning the repository, you need to configure the environment by adding your API keys. To run this project successfully, you need to create a `.env` file that securely stores your API keys. These keys are required for accessing external services like flights, hotels, weather, and news data.
+
+## Step 1: Create the `.env` File
+After cloning the repository, navigate to the **root directory** of the project and create a file named `.env` (this is the full name, no prefix or extension).
+
+---
+
+## Step 2: Get your api keys
+### Flights & Hotels (Amadeus API)
+
+1. **Visit**: [Amadeus Developer Portal](https://developers.amadeus.com/)
+2. **Sign up** or log in to your account
+3. Navigate to: **"My Self-Service Workspace"**
+4. **Create a new application**
+5. Copy from your dashboard:
+   - `API Key` → Use for `FLIGHTS_API_KEY` and `HOTELS_API_KEY`
+   - `API Secret` → Use for `FLIGHTS_API_SECRET` and `HOTELS_API_SECRET`
+
+### Weather (WeatherAPI)
+
+1. **Visit**: [WeatherAPI.com](https://www.weatherapi.com/)
+2. **Register** for a free account
+3. Find your:
+   - `API Key` → Use for `WEATHER_API_KEY`
+
+### News (NewsAPI)
+
+1. **Visit**: [NewsAPI.org](https://newsapi.org/)
+2. **Sign up** or log in
+3. Locate your:
+   - `API Key` → Use for `NEWS_API_KEY`
+
+---
+
+
+## Step 3: Add the API Keys in .env file
+
+Copy and paste the following into your `.env` file:
+
+```env
+FLIGHTS_API_KEY=your_flights_api_key_here
+FLIGHTS_API_SECRET=your_flights_api_secret_here
+
+HOTELS_API_KEY=your_hotels_api_key_here
+HOTELS_API_SECRET=your_hotels_api_secret_here
+
+WEATHER_API_KEY=your_weather_api_key_here
+
+NEWS_API_KEY=your_news_api_key_here
+```
+
+---
+
+### **2. Before running following command Please ensure just is already installed in your system**
+
 ```bash
 just setup  
 ```
 
-### **2. Running the Application**
+---
+
+### **3. Running the Application**
 
 #### Run the Backend
 

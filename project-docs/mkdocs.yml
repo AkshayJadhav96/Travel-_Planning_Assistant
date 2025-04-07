@@ -7,6 +7,7 @@ nav:
   - Architecture: architecture.md
   - Functionality & Usage: functionality.md
   - Learnings: learnings.md
+  - How to run project: project_run.md
 
 theme:
   name: material

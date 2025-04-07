@@ -62,7 +62,7 @@ def search_flights(source: str,
 
     Use when the user asks for flights between two cities/airports on a specific date.
     - Required: source IATA code, destination IATA code,
-    date (YYYY-MM-DD) (default = use today's date tool to set input value of date).
+    date (YYYY-MM-DD) .
     - Optional: number of adults (int default = 1),
     preferred currency (str default = "USD").
 

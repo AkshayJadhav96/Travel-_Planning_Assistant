@@ -26,6 +26,8 @@ INVALID_RESPONSE_ERROR = "Invalid API response: Missing or incorrect 'articles' 
 def get_news(location: str) -> list[NewsArticle]:
     """Get the news about a location and its surrounding by inputting the location.
 
+    Use when the user asks for news related to a specific city, country, or region.
+
     Args:
         location (str): The location to fetch news for.
 

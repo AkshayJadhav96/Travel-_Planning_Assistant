@@ -50,13 +50,14 @@ except ValueError as e:
 def get_weather(city: str, days: int = 1) -> list[str] | str:
     """Fetch the weather forecast for a given city and future dates.
 
+    Use when the user asks about the weather for a city or location.
+
     Args:
         city (str): The name of the city.
         days (int): Number of future days for the forecast (1-14 days).
 
     Returns:
-        Union[List[dict], str]: The weather forecast summary as a list
-         of dictionaries or an error message.
+        List[str] or str: The weather forecast summary as a formatted string.
 
     """
     logger.info(f"Starting weather forecast for {city} (days: {days})")

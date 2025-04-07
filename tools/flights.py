@@ -1,8 +1,10 @@
 """Flight search tool module."""
 
 import os
+from datetime import datetime
 from pathlib import Path
 
+import pytz
 import requests
 import yaml
 from dotenv import load_dotenv
@@ -50,11 +52,23 @@ except ValueError as e:
     raise
 
 @tool
-def search_flights(source: str, destination: str, date: str, adults: int, currency: str,
+def search_flights(source: str,
+                   destination: str,
+                   date: str =  str(datetime.now(pytz.UTC).date()),
+                   adults: int = 1,
+                   currency: str = "USD",
                    ) -> FlightSearchResponse:
-    """Search for flights using Amadeus API and return results.
+    """Search for flights between airports using Amadeus API and return results.
 
-    Now accepts individual parameters instead of a Pydantic object.
+    Use when the user asks for flights between two cities/airports on a specific date.
+    - Required: source IATA code, destination IATA code,
+    date (YYYY-MM-DD) (default = use today's date tool to set input value of date).
+    - Optional: number of adults (int default = 1),
+    preferred currency (str default = "USD").
+
+    Input format: `search_flights(source: str, destination: str,
+    date: str, adults: Optional[int], currency: Optional[str])`
+
     """
     logger.info(
         f"Starting flight search: {source}→{destination} on {date} for {adults} "
@@ -67,8 +81,8 @@ def search_flights(source: str, destination: str, date: str, adults: int, curren
             source=source,
             destination=destination,
             date=date,
-            adults=adults or 1,
-            currency=currency or "USD",
+            adults=adults,
+            currency=currency,
         )
         logger.debug(f"Created request object: {request_data}")
 

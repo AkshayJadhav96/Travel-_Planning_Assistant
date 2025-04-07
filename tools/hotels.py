@@ -54,19 +54,24 @@ def search_hotels(
     city_code: str = "NYC",
     radius: int = 1,
     radius_unit: str = "KM",
-    amenities: str = "",
-    ratings: str = "",
+    amenities: str = "wifi,pool",
+    ratings: str = "3,4",
 ) -> HotelSearchResponse:
     """Search for hotels using the Amadeus API and return results.
 
+    Use when the user asks for hotel options in a city.
+
     Args:
-        city_code: IATA city code (e.g. "NYC")
-        radius: Search radius from city center
-        radius_unit: "KM" or "MI"
-        amenities: Comma-separated list of amenities
-        ratings: Comma-separated list of rating filters
+        city_code: IATA city code (default = "NYC")
+        radius: Search radius from city center (default = 1)
+        radius_unit: "KM" or "MI" (default = "KM")
+        amenities: Comma-separated list of amenities (default = "wifi,pool")
+        ratings: Comma-separated list of rating (default="3,4")
+
     Returns:
         HotelSearchResponse with list of hotels or error message
+    Input format: `search_hotels(city: str, radius: Optional[int],
+    radius_unit: Optional[str], amenities: Optional[str], ratings: Optional[str])`
 
     """
     logger.info(

@@ -7,13 +7,13 @@ from langchain.agents import AgentExecutor, create_tool_calling_agent
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama import ChatOllama
 
-from tools.Currency import convert_currency
+from tools.currency import convert_currency
 from tools.flights import search_flights
 from tools.hotels import search_hotels
 from tools.news import get_news
-from tools.Weather import get_weather
+from tools.weather import get_weather
 
-model = ChatOllama(model="llama3.2")
+model = ChatOllama(model="qwen2.5:3b")
 
 # Load config.yaml from the 'tools' directory
 config_path = Path(__file__).parent / "tools" / "config.yaml"

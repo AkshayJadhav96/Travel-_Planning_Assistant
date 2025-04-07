@@ -1,3 +1,5 @@
+"""Amount converted from one currency to other."""
+
 from pathlib import Path
 
 import requests
@@ -30,9 +32,9 @@ def convert_currency(
     """Convert a given amount from one currency to another.
 
     Args:
-        amount (float): The amount to convert.
-        from_currency (str): The source currency code (e.g., 'usd').
-        to_currency (str): The target currency code (e.g., 'inr').
+        amount (float): The amount to convert default is 1.
+        from_currency (str): The source currency code (3 letter ISO, e.g., 'usd').
+        to_currency (str): The target currency code (3 letter ISO, e.g., 'inr').
 
     Returns:
         dict: The converted amount with currency information.

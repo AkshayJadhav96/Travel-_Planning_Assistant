@@ -2,4 +2,4 @@
 
 Travel-Planning-Assistance - LLM Tool Use Project
 
-Refer to the project docs for the project-docs directory for project documentation.
+Refer to the the project-docs directory for project documentation.

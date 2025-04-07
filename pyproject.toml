@@ -13,10 +13,13 @@ dependencies = [
     "mkdocs-material>=9.6.11",
     "pydantic>=2.10.6",
     "requests>=2.32.3",
+    "ruff>=0.11.4",
     "streamlit>=1.43.2",
     "uvicorn>=0.34.0",
 ]
 
+[tool.ruff]
+select = ["ALL"] 
 
 
 [tool.uv.sources]

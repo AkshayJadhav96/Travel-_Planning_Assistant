@@ -1,38 +1,51 @@
-import requests
-from .pydantic_models import HotelOption, HotelSearchRequest, HotelSearchResponse
-from langchain.tools import tool
-from dotenv import load_dotenv
+"""Hotel search tool module."""
+
 import os
-import yaml
 from pathlib import Path
 
+import requests
+import yaml
+from dotenv import load_dotenv
+from langchain.tools import tool
 from loguru import logger
+
 from unified_logging.logging_setup import setup_logging
+
+from .pydantic_models import HotelOption, HotelSearchRequest, HotelSearchResponse
+
+# HTTP status code constant
+HTTP_OK = 200
 
 # Initialize logging
 setup_logging()
 logger.info("Hotel search tool initializing")
 
 # Load environment variables
+MISSING_CREDENTIALS_ERROR = "Missing API credentials in environment variables"
+
+def _check_api_credentials() -> None:
+    """Check if hotel API credentials are available in environment variables."""
+    hotel_api_key = os.getenv("HOTELS_API_KEY")
+    hotel_api_secret = os.getenv("HOTELS_API_SECRET")
+    if not hotel_api_key or not hotel_api_secret:
+        raise ValueError(MISSING_CREDENTIALS_ERROR)
+
 try:
     load_dotenv()
-    HOTEL_API_KEY = os.getenv("HOTELS_API_KEY")
-    HOTEL_API_SECRET = os.getenv("HOTELS_API_SECRET")
-    if not HOTEL_API_KEY or not HOTEL_API_SECRET:
-        raise ValueError("Missing API credentials in environment variables")
+    _check_api_credentials()
     logger.success("Successfully loaded hotel API credentials")
-except Exception as e:
+except ValueError as e:
     logger.error(f"Failed to load environment variables: {e}")
     raise
 
 # Load configuration
 try:
     config_path = Path(__file__).parent / "config.yaml"
-    with open(config_path, 'r') as file:
+    with config_path.open() as file:
         config = yaml.safe_load(file)
     BASE_URL = config["Hotels"]["BASE_URL"]
     logger.success("Successfully loaded hotel configuration")
-except Exception as e:
+except ValueError as e:
     logger.error(f"Failed to load configuration: {e}")
     raise
 
@@ -42,10 +55,10 @@ def search_hotels(
     radius: int = 1,
     radius_unit: str = "KM",
     amenities: str = "",
-    ratings: str = ""
+    ratings: str = "",
 ) -> HotelSearchResponse:
-    """
-    Search for hotels using the Amadeus API and return results.
+    """Search for hotels using the Amadeus API and return results.
+
     Args:
         city_code: IATA city code (e.g. "NYC")
         radius: Search radius from city center
@@ -54,10 +67,11 @@ def search_hotels(
         ratings: Comma-separated list of rating filters
     Returns:
         HotelSearchResponse with list of hotels or error message
+
     """
     logger.info(
         f"Starting hotel search in {city_code} "
-        f"(radius: {radius}{radius_unit}, amenities: {amenities}, ratings: {ratings})"
+        f"(radius: {radius}{radius_unit}, amenities: {amenities}, ratings: {ratings})",
     )
 
     try:
@@ -67,7 +81,7 @@ def search_hotels(
             radius=radius,
             radius_unit=radius_unit,
             amenities=amenities,
-            ratings=ratings
+            ratings=ratings,
         )
         logger.debug(f"Created request object: {request_data}")
 
@@ -76,13 +90,15 @@ def search_hotels(
         headers = {"Content-Type": "application/x-www-form-urlencoded"}
         data = {
             "grant_type": "client_credentials",
-            "client_id": HOTEL_API_KEY,
-            "client_secret": HOTEL_API_SECRET
+            "client_id": os.getenv("HOTELS_API_KEY"),
+            "client_secret": os.getenv("HOTELS_API_SECRET"),
         }
-        
-        response = requests.post(BASE_URL, headers=headers, data=data)
-        if response.status_code != 200:
-            error_msg = f"Token request failed: {response.status_code} - {response.text}"
+
+        response = requests.post(BASE_URL, headers=headers, data=data, timeout=10)
+        if response.status_code != HTTP_OK:
+            error_msg = (
+                f"Token request failed: {response.status_code} - {response.text}"
+            )
             logger.error(error_msg)
             return HotelSearchResponse(error=error_msg)
 
@@ -102,9 +118,11 @@ def search_hotels(
         logger.debug(f"Preparing hotel search with params: {params}")
 
         logger.info("Making hotel search request")
-        response = requests.get(search_url, headers=headers, params=params)
-        if response.status_code != 200:
-            error_msg = f"Hotel search failed: {response.status_code} - {response.text}"
+        response = requests.get(search_url, headers=headers, params=params, timeout=10)
+        if response.status_code != HTTP_OK:
+            error_msg = (
+                f"Hotel search failed: {response.status_code} - {response.text}"
+            )
             logger.error(error_msg)
             return HotelSearchResponse(error=error_msg)
 
@@ -118,7 +136,7 @@ def search_hotels(
                 hotel_id=hotel.get("hotelId", "Not specified"),
                 address=hotel["address"].get("countryCode", "Not specified"),
                 rating=str(hotel.get("rating", "Not rated")),
-                amenities=hotel.get("amenities", [])
+                amenities=hotel.get("amenities", []),
             )
             for hotel in data
         ]
@@ -131,7 +149,7 @@ def search_hotels(
         logger.debug(f"Sample hotel: {hotels[0]}")
         return HotelSearchResponse(hotels=hotels)
 
-    except Exception as e:
-        error_msg = f"Unexpected error in hotel search: {str(e)}"
+    except ValueError as e:
+        error_msg = f"Unexpected error in hotel search: {e!s}"
         logger.critical(error_msg)
         return HotelSearchResponse(error=error_msg)

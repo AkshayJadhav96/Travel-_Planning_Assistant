@@ -1,2 +1,1 @@
-#tools folder
-# for running logging server: uv run python -m unified_logging.logging_server
+"""Tools package for Travel and Finance Assistant."""

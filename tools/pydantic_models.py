@@ -1,53 +1,20 @@
-# from pydantic import BaseModel, Field
-# from typing import List, Optional, Literal
+"""Pydantic models for Travel and Finance Assistant tools."""
 
-# class FlightSearchRequest(BaseModel):
-#     source: str = Field(..., min_length=3, max_length=3, description="IATA code of the departure airport")
-#     destination: str = Field(..., min_length=3, max_length=3, description="IATA code of the destination airport")
-#     date: str = Field(..., pattern="\\d{4}-\\d{2}-\\d{2}", description="Travel date in 'YYYY-MM-DD' format")
-#     adults: int = Field(1, gt=0, description="Number of adult passengers")
-#     currency: str = Field("USD", min_length=3, max_length=3, description="Currency code for price display")
+from typing import Literal
 
-# class FlightOption(BaseModel):
-#     airline: str
-#     departure_time: str
-#     arrival_time: str
-#     price: str
+from pydantic import BaseModel, Field, HttpUrl
 
-# class FlightSearchResponse(BaseModel):
-#     flights: List[FlightOption] = []
-#     message: Optional[str] = None
-#     error: Optional[str] = None
-
-# class HotelSearchRequest(BaseModel):
-#     city_code: str = Field(..., min_length=3, max_length=3, description="IATA city code")
-#     radius: int = Field(10, ge=1, description="Search radius around city center (default: 10 km)")
-#     radius_unit: Literal["KM", "MI"] = Field("KM", description="Unit of radius (KM or MI)")
-#     amenities: Optional[str] = Field(None, description="Comma-separated list of amenities")
-#     ratings: Optional[str] = Field(None, description="Comma-separated list of minimum ratings")
-
-# class HotelOption(BaseModel):
-#     name: str
-#     hotel_id: Optional[str]
-#     address: Optional[str]
-#     rating: Optional[str]
-#     amenities: List[str]
-
-# class HotelSearchResponse(BaseModel):
-#     hotels: Optional[List[HotelOption]] = None
-#     message: Optional[str] = None
-#     error: Optional[str] = None
-
-import requests
-from typing import List,Optional,Dict, Literal
-from pydantic import BaseModel, Field
-from pydantic import BaseModel, HttpUrl, Field
 
 # Pydantic Models
 class Condition(BaseModel):
+    """Weather condition details."""
+
     text: str
 
+
 class Day(BaseModel):
+    """Daily weather forecast data."""
+
     mintemp_c: float = Field(..., alias="mintemp_c")
     maxtemp_c: float = Field(..., alias="maxtemp_c")
     maxwind_kph: float = Field(..., alias="maxwind_kph")
@@ -56,58 +23,115 @@ class Day(BaseModel):
     daily_chance_of_snow: int = Field(..., alias="daily_chance_of_snow")
     condition: Condition
 
+
 class ForecastDay(BaseModel):
+    """Single day forecast in weather data."""
+
     date: str
     day: Day
 
+
 class WeatherForecast(BaseModel):
-    forecastday: List[ForecastDay]
+    """Complete weather forecast structure."""
+
+    forecastday: list[ForecastDay]
+
 
 class FlightSearchRequest(BaseModel):
-    source: str = Field(..., min_length=3, max_length=3, description="IATA code of the departure airport")
-    destination: str = Field(..., min_length=3, max_length=3, description="IATA code of the destination airport")
-    date: str = Field(..., pattern="\\d{4}-\\d{2}-\\d{2}", description="Travel date in 'YYYY-MM-DD' format")
+    """Request data for flight search."""
+
+    source: str = Field(
+        ...,
+        min_length=3,
+        max_length=3,
+        description="IATA code of the departure airport",
+    )
+    destination: str = Field(
+        ...,
+        min_length=3,
+        max_length=3,
+        description="IATA code of the destination airport",
+    )
+    date: str = Field(
+        ...,
+        pattern=r"\d{4}-\d{2}-\d{2}",
+        description="Travel date in 'YYYY-MM-DD' format",
+    )
     adults: int = Field(1, gt=0, description="Number of adult passengers")
-    currency: str = Field("USD", min_length=3, max_length=3, description="Currency code for price display")
+    currency: str = Field(
+        "USD",
+        min_length=3,
+        max_length=3,
+        description="Currency code for price display",
+    )
+
 
 class FlightOption(BaseModel):
+    """Details of a single flight option."""
+
     airline: str
     departure_time: str
     arrival_time: str
     price: str
 
+
 class FlightSearchResponse(BaseModel):
-    flights: List[FlightOption] = []
-    message: Optional[str] = None
-    error: Optional[str] = None
+    """Response data for flight search."""
+
+    flights: list[FlightOption] = []
+    message: str | None = None
+    error: str | None = None
+
 
 class CurrencyData(BaseModel):
-    rates: Dict[str, float]
+    """Currency exchange rate data."""
+
+    rates: dict[str, float]
 
 
 class ConvertedAmount(BaseModel):
-    final_amount : float
+    """Converted currency amount."""
+
+    final_amount: float
+
 
 class HotelSearchRequest(BaseModel):
+    """Request data for hotel search."""
+
     city_code: str = Field(..., description="IATA city code")
-    radius: int = Field(10, ge=1, description="Search radius around city center (default: 10 km)")
-    radius_unit: Literal["km","mi","KM", "MI"] = Field("KM", description="Unit of radius (KM or MI)")
+    radius: int = Field(
+        10,
+        ge=1,
+        description="Search radius around city center (default: 10 km)",
+    )
+    radius_unit: Literal["km", "mi", "KM", "MI"] = Field(
+        "KM",
+        description="Unit of radius (KM or MI)",
+    )
     amenities: str = Field(None, description="Comma-separated list of amenities")
     ratings: str = Field(None, description="Comma-separated list of minimum ratings")
 
+
 class HotelOption(BaseModel):
+    """Details of a single hotel option."""
+
     name: str
-    hotel_id: Optional[str]
-    address: Optional[str]
-    rating: Optional[str]
-    amenities: List[str]
+    hotel_id: str | None
+    address: str | None
+    rating: str | None
+    amenities: list[str]
+
 
 class HotelSearchResponse(BaseModel):
-    hotels: Optional[List[HotelOption]] = None
-    message: Optional[str] = None
-    error: Optional[str] = None
-    
+    """Response data for hotel search."""
+
+    hotels: list[HotelOption] | None = None
+    message: str | None = None
+    error: str | None = None
+
+
 class NewsArticle(BaseModel):
+    """News article details."""
+
     Title: str = Field(..., min_length=1)
     URL: HttpUrl
-    

@@ -13,7 +13,7 @@ from tools.hotels import search_hotels
 from tools.news import get_news
 from tools.weather import get_weather
 
-model = ChatOllama(model="qwen2.5:3b")
+model = ChatOllama(model="qwen2.5:7b")
 
 # Load config.yaml from the 'tools' directory
 config_path = Path(__file__).parent / "tools" / "config.yaml"

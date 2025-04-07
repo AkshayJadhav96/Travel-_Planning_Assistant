@@ -28,10 +28,10 @@ class TravelFinanceassistant:
         logger.success("LLM executor initialized successfully")
 
     @bentoml.api
-    def query(self, user_input: str) -> dict:
+    def query(self, input: str) -> dict:
         """Process a user query and return the assistant's response."""
         try:
-            response = call_llm(user_input, self.agent_executor)
+            response = call_llm(input, self.agent_executor)
             logger.success(
                 f"Successfully processed query. Response length: {len(response)}",
             )

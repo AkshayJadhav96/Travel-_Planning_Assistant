@@ -55,7 +55,7 @@ def convert_currency(
     try:
         # Fetch data from the API
         logger.info("Making API request for currency data")
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=300)
         data = response.json()
         logger.success("Successfully received currency data from API")
 

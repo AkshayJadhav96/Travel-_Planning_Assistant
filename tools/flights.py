@@ -95,7 +95,7 @@ def search_flights(source: str,
             "client_secret": os.getenv("FLIGHTS_API_SECRET"),
         }
 
-        response = requests.post(BASE_URL, headers=headers, data=data, timeout=10)
+        response = requests.post(BASE_URL, headers=headers, data=data, timeout=300)
         if response.status_code != HTTP_OK:
             error_msg = f"Token request failed:{response.status_code} - {response.text}"
             logger.error(error_msg)
@@ -118,7 +118,7 @@ def search_flights(source: str,
         logger.debug(f"Preparing flight search with params: {params}")
 
         logger.info("Making flight search request")
-        response = requests.get(search_url, headers=headers, params=params, timeout=10)
+        response = requests.get(search_url, headers=headers, params=params, timeout=300)
         if response.status_code != HTTP_OK:
             error_msg = f"Flight search failed:{response.status_code} - {response.text}"
             logger.error(error_msg)

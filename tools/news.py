@@ -45,7 +45,7 @@ def get_news(location: str) -> list[NewsArticle]:
     logger.debug(f"Sending request to News API: {url}")
 
     try:
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=300)
         response.raise_for_status()
         logger.info("News API request successful")
     except requests.exceptions.RequestException as e:

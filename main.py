@@ -60,7 +60,7 @@ else:
         # Send the prompt to the selected backend server
         try:
             api_url = server_urls[st.session_state.server_option]
-            response = requests.post(api_url, json={"input": prompt}, timeout=1000)
+            response = requests.post(api_url, json={"input": prompt}, timeout=300)
 
             # Handle the response from the backend API
             if response.status_code == HTTP_OK:

@@ -71,7 +71,7 @@ def get_weather(city: str, days: int = 1) -> list[str] | str:
 
         # Make API request
         logger.info("Making request to weather API")
-        response = requests.get(endpoint, params=params, timeout=10)
+        response = requests.get(endpoint, params=params, timeout=300)
         logger.debug(f"Received status code: {response.status_code}")
 
         data = response.json()
